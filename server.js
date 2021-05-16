@@ -46,7 +46,7 @@ app.delete('/api/quotes/:id', (req,res,next) => {
     const index = getIndexById(req.params.id, quotes);
     if (index !== -1) {
         quotes.splice(index, 1);
-        res.status(204).send()
+        res.status(204).send();
     } else {
         res.status(404).send();
     }

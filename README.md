@@ -21,8 +21,8 @@
 * Fetch all Quotes
 * Fetch by Author
 * Add a New Quote
-* Update a quote (via URLs and Postman)
-* Delete a quote (via URLs and Postman)
+* Update a quote
+* Delete a quote
 
 ## Start
 Start server in node:
